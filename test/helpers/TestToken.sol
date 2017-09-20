@@ -1,4 +1,4 @@
-import "zeppelin-solidity/contracts/token/MintableToken.sol";
+import "../../contracts/zeppelin/token/MintableToken.sol";
 
 contract TestToken is MintableToken {
 }
