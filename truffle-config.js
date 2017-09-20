@@ -18,11 +18,6 @@ if (process.env.LIVE_NETWORKS) {
 
 module.exports = {
   networks: {
-    development: {
-      network_id: 15,
-      provider: developmentProvider,
-      gas: 9e6,
-    },
     testrpc: {
       network_id: 15,
       host: 'localhost',
