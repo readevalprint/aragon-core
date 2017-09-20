@@ -1,7 +1,7 @@
 pragma solidity ^0.4.11;
 
-import "zeppelin-solidity/contracts/token/StandardToken.sol";
-import "zeppelin-solidity/contracts/math/SafeMath.sol";
+import "../zeppelin/token/StandardToken.sol";
+import "../zeppelin/math/SafeMath.sol";
 
 
 contract EtherToken is StandardToken {
