@@ -3,7 +3,7 @@ pragma solidity ^0.4.15;
 import "../App.sol";
 import "../../common/Initializable.sol";
 import "../../common/EtherToken.sol";
-import "zeppelin-solidity/contracts/token/ERC20.sol";
+import "../../zeppelin/token/ERC20.sol";
 import "../vault/Vault.sol";
 import "../../misc/Crontab.sol";
 
